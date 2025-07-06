@@ -6,7 +6,7 @@ export const ProjectCard = ({name, link}) => {
     <div className="projectCard__container">
       <div className='projectCard__card'>
         <p className='projectCard__heading'>{name}</p>
-        <a href={link} className='projectCard__link'>View project</a>
+        <a href={link} className='projectCard__link' target='_blank'>View project</a>
       </div>
     </div>
   );
