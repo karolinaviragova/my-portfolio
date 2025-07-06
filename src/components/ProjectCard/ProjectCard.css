@@ -1,0 +1,27 @@
+.projectCard__container {
+  color: var(--primary--background);
+  display: flex;
+  justify-content: center;
+}
+
+.projectCard__card {
+max-width: 300px;
+min-height: 250px;
+background-color: var(--primary--color);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 60px;
+flex-grow: 1;
+
+}
+.projectCard__heading {
+font-size: 2.5rem;
+margin: 0;
+}
+
+.projectCard__link {
+  color: var(--primary--background);
+  font-size: 1.25rem;
+}
