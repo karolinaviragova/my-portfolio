@@ -10,4 +10,8 @@ html, body {
   background-color: var(--primary--background);
 }
 
+main {
+    min-height: 100vh;
+}
+
 
