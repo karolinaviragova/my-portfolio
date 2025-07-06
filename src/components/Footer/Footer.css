@@ -1,0 +1,45 @@
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--primary--color);
+  font-weight: bold;
+}
+
+.footer__socials,
+.footer__rights {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.footer__socials {
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__rights {
+  justify-content: flex-end;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: var(--primary--color);
+  padding-right: 0.625rem;
+
+}
+
+/* Pro tablety (min šířka 768px) */
+@media (min-width: 768px) {
+  .footer__container {
+    font-size: 1.25rem;
+  }
+}
+
+/* Pro desktop (min šířka 1024px) */
+@media (min-width: 1024px) {
+  .footer__container {
+    font-size: 1.25rem;
+  }
+}

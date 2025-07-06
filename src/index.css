@@ -6,7 +6,8 @@
   --color--black: #000000;
 }
 
-body {
+html, body {
   background-color: var(--primary--background);
 }
+
 
