@@ -5,10 +5,15 @@ import { useEffect, useState } from 'react';
 
 export const HomePage = () => {
   const [projects, setProjects] = useState([]);
+  const [flipCard, seFlipCard] = useState(false);
 
+  const handleFlip = () => {
+    seFlipCard(!flipCard)
+  }
+  
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('public/projects.json');
+      const response = await fetch('/projects.json');
       const result = await response.json();
       setProjects(result);
     };
@@ -19,7 +24,7 @@ export const HomePage = () => {
     <>
       <HomePageIntro />
       {projects.map((project) => (
-        <ProjectCard key={project.id} name={project.name} link={project.link} />
+        <ProjectCard key={project.id} name={project.name} link={project.link} description={project.description} onFlip={handleFlip} flipCard={flipCard}/>
       ))}
     </>
   );
