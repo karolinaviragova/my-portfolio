@@ -8,9 +8,9 @@ export const HomePage = () => {
   const [flipCard, seFlipCard] = useState(false);
 
   const handleFlip = () => {
-    seFlipCard(!flipCard)
-  }
-  
+    seFlipCard(!flipCard);
+  };
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('/projects.json');
@@ -23,9 +23,18 @@ export const HomePage = () => {
   return (
     <>
       <HomePageIntro />
-      {projects.map((project) => (
-        <ProjectCard key={project.id} name={project.name} link={project.link} description={project.description} onFlip={handleFlip} flipCard={flipCard}/>
-      ))}
+      <div className="cardsContainer">
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            name={project.name}
+            link={project.link}
+            description={project.description}
+            onFlip={handleFlip}
+            flipCard={flipCard}
+          />
+        ))}
+      </div>
     </>
   );
 };
