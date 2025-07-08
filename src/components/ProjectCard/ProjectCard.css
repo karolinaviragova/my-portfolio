@@ -1,12 +1,14 @@
 .projectCard__container {
   color: var(--primary--background);
-  position: relative;
-  transform-style: preserve-3d;
+  position: absolute;
+  width: 350px;
+  height: 100%;
+
 }
 
 .projectCard__card {
   width: 100%;
-  min-height: 300px;
+  height: 100%;
   background-color: var(--primary--color);
   display: flex;
   flex-direction: column;
@@ -31,4 +33,27 @@
 .projectCard__link {
   color: var(--primary--background);
   font-size: 1.25rem;
+}
+
+/* Pro tablety (min šířka 768px) */
+@media (min-width: 768px) {
+  .projectCard__container {
+    width: calc(100% / 3);
+    position: relative;
+
+  }
+
+  .projectCard__card {
+    height: 300px;
+
+  }
+
+}
+
+/* Pro desktop (min šířka 1024px) */
+@media (min-width: 1024px) {
+  .projectCard__container {
+    width: calc(100% / 3);
+  }
+
 }
