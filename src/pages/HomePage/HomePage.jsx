@@ -5,10 +5,19 @@ import { useEffect, useState } from 'react';
 
 export const HomePage = () => {
   const [projects, setProjects] = useState([]);
-  const [flipCard, seFlipCard] = useState(false);
+  const [flippedCard, seFlippedCard] = useState(false);
 
-  const handleFlip = () => {
-    seFlipCard(!flipCard);
+  // find id with .find, handle id as parameter is passed to child
+  const handleFlip = (handleId) => {
+    const foundId = projects.find((projectId) => projectId.id === handleId);
+    
+    if(foundId.id === 0) {
+      seFlippedCard(handleId)
+    } else if (foundId.id === 1) {
+      seFlippedCard(handleId)
+    } else if (foundId.id === 2) {
+      seFlippedCard(handleId)
+    }
   };
 
   useEffect(() => {
@@ -31,7 +40,8 @@ export const HomePage = () => {
             link={project.link}
             description={project.description}
             onFlip={handleFlip}
-            flipCard={flipCard}
+            flippedCard={flippedCard}
+            id={project.id}
           />
         ))}
       </div>
