@@ -1,9 +1,10 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --primary--background: #FFFFF3;
-  --primary--color: #DF2935;
-  --secondary--color: #FF8CC6;
-  --color--black: #000000;
+  --primary--background: #F6F7EB;
+  --primary--color: #381D2A;
+  --secondary--color: #EC91D8;
+  --tertiary--color: #F15025;
+  --color--black: #03191E;
 }
 
 html, body {
