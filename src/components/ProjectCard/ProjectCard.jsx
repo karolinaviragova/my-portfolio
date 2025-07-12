@@ -16,23 +16,33 @@ export const ProjectCard = ({
         onFlip(id);
       }}
     >
-      <div className="projectCard__card">
-        <p className="projectCard__heading">{name}</p>
-        <a href={link} className="projectCard__link" target="_blank">
-          View project
-        </a>
-      </div>
-      <div
-        className={
-          id === flippedCard ? 'projectCard__card projectCard__card--back' : ' '
-        }
-      >
-        {id === flippedCard ? (
+      {id === flippedCard ? (
+        <div className="projectCard__card projectCard__card--back">
           <p className="projectCard__description">{description}</p>
-        ) : (
-          ' '
-        )}
-      </div>
+        </div>
+      ) : (
+        <div className="projectCard__card">
+          <p className="projectCard__heading">{name}</p>
+          <a href={link} className="projectCard__link" target="_blank">
+            View project
+          </a>
+        </div>
+      )}
     </div>
   );
 };
+
+/*
+{id === flippedCard ? (
+        <div className="projectCard__card projectCard__card--back">
+          <p className="projectCard__description">{description}</p>
+        </div>
+      ) : (
+        <div className="projectCard__card">
+          <p className="projectCard__heading">{name}</p>
+          <a href={link} className="projectCard__link" target="_blank">
+            View project
+          </a>
+        </div>
+      )}
+*/

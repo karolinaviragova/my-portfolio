@@ -5,18 +5,18 @@ import { useEffect, useState } from 'react';
 
 export const HomePage = () => {
   const [projects, setProjects] = useState([]);
-  const [flippedCard, seFlippedCard] = useState(false);
+  const [flippedCard, setFlippedCard] = useState(null);
 
-  // find id with .find, handle id as parameter is passed to child
   const handleFlip = (handleId) => {
-    const foundId = projects.find((projectId) => projectId.id === handleId);
-    
-    if(foundId.id === 0) {
-      seFlippedCard(handleId)
-    } else if (foundId.id === 1) {
-      seFlippedCard(handleId)
-    } else if (foundId.id === 2) {
-      seFlippedCard(handleId)
+    projects.find((project) => project.id === handleId);
+
+    // If the state matches the card's ID, it means the card is already flipped, so reset the state to default (null).
+    // Otherwise, flip the card by setting the state to the card's ID.
+
+    if (flippedCard === handleId) {
+      setFlippedCard(null);
+    } else {
+      setFlippedCard(handleId);
     }
   };
 
