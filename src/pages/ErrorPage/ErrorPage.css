@@ -1,0 +1,13 @@
+.errorPage__container {
+  text-align: center;
+}
+
+.errorPage__desc, .errorPage__link  {
+  color: var(--primary--color);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.errorPage__link:hover {
+  color: var(--secondary--color);
+}
