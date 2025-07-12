@@ -9,10 +9,8 @@
 
 html, body {
   background-color: var(--primary--background);
-}
-
-main {
-    min-height: 100vh;
+  height: 100vh;
+  margin: 0;
 }
 
 
