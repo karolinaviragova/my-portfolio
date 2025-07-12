@@ -1,15 +1,16 @@
 .cardsContainer {
   position: relative;
-  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 1.88rem;
 }
 
 /* Pro tablety (min šířka 768px) */
 @media (min-width: 768px) {
   .cardsContainer {
     gap: 20px;
+    margin: 1.88rem;
   }
 }

@@ -7,7 +7,6 @@
 .homepage__role {
   margin: 0;
   text-transform: uppercase;
-
 }
 
 .homepage__name {
@@ -43,15 +42,16 @@
 
 /* Pro tablety (min šířka 768px) */
 @media (min-width: 768px) {
+  .homepage__container {
+    margin: 1rem;
+  }
   .homepage__name {
     font-size: 2.5rem;
-
   }
 
   .homepage__intro-text,
   .homepage__link {
     font-size: 1rem;
-
   }
 
 }
