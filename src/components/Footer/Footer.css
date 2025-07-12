@@ -25,6 +25,10 @@
   color: var(--primary--color);
 }
 
+.footer__links:hover {
+color: var(--secondary--color);
+}
+
 /* Pro tablety (min šířka 768px)*/ 
 @media (min-width: 768px) {
   .footer__container {

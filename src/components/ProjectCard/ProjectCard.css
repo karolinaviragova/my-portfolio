@@ -34,6 +34,10 @@
   font-size: 1.25rem;
 }
 
+.projectCard__link:hover {
+  color: var(--tertiary--color);
+}
+
 /* Pro tablety (min šířka 768px) */
 @media (min-width: 768px) {
   .projectCard__container {
