@@ -1,6 +1,5 @@
 import './ProjectCard.css';
 
-/*make card behind one each other on mobile, in line on desktop */
 export const ProjectCard = ({
   name,
   link,
@@ -31,18 +30,3 @@ export const ProjectCard = ({
     </div>
   );
 };
-
-/*
-{id === flippedCard ? (
-        <div className="projectCard__card projectCard__card--back">
-          <p className="projectCard__description">{description}</p>
-        </div>
-      ) : (
-        <div className="projectCard__card">
-          <p className="projectCard__heading">{name}</p>
-          <a href={link} className="projectCard__link" target="_blank">
-            View project
-          </a>
-        </div>
-      )}
-*/

@@ -1,8 +1,11 @@
 .projectCard__container {
   color: var(--primary--background);
-  position: absolute;
-  width: 350px;
-  height: 100%;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projectCard__card {
@@ -12,10 +15,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   border-radius: 60px;
   text-align: center;
-  position: absolute;
 }
 
 .projectCard__card--back {
@@ -42,21 +43,10 @@
 @media (min-width: 768px) {
   .projectCard__container {
     width: calc(100% / 3);
-    position: relative;
-
   }
 
   .projectCard__card {
     height: 300px;
-
-  }
-
-}
-
-/* Pro desktop (min šířka 1024px) */
-@media (min-width: 1024px) {
-  .projectCard__container {
-    width: calc(100% / 3);
   }
 
 }

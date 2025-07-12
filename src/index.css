@@ -7,7 +7,7 @@
   --color--black: #03191E;
 }
 
-html, body {
+html {
   background-color: var(--primary--background);
   height: 100vh;
   margin: 0;
