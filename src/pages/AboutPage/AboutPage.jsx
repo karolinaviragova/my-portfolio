@@ -1,5 +1,17 @@
+import { AboutContact } from '../../components/AboutContact/AboutContact';
+import { AboutCourses } from '../../components/AboutCourses/AboutCourses';
+import { AboutIntro } from '../../components/AboutIntro/AboutIntro';
+import { AboutProjects } from '../../components/AboutProjects/AboutProjects';
+import { AboutSkills } from '../../components/AboutSkills/AboutSkills';
+
 export const AboutPage = () => {
-  return(
-    <h1>Tohle je about me page</h1>
-  )
-}
+  return (
+    <>
+      <AboutIntro />
+      <AboutSkills />
+      <AboutCourses />
+      <AboutProjects />
+      <AboutContact />
+    </>
+  );
+};

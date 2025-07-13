@@ -1,0 +1,12 @@
+.about__introText {
+  color: var(--primary--color);
+}
+
+.about__heading {
+  color: var(--secondary--color);
+}
+
+.about__link {
+  color: var(--primary--color);
+  font-weight: bold;
+}

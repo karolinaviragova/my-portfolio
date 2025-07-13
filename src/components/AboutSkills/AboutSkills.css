@@ -1,0 +1,17 @@
+#skills {
+  color: var(--primary--color);
+}
+
+.skills__heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary--color);
+}
+
+.skills__headings {
+  color: var(--tertiary--color);
+}
+
+li::marker {
+  color: var(--tertiary--color);
+}

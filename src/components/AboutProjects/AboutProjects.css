@@ -1,0 +1,23 @@
+#projects {
+  color: var(--primary--color);
+}
+
+.projects__heading {
+    text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary--color);
+}
+
+.projects__name {
+  color: var(--tertiary--color);
+}
+
+.projects__link {
+  color: var(--primary--color);
+  font-weight: bold;
+}
+
+.projects__link:hover {
+      color: var(--secondary--color);
+
+}

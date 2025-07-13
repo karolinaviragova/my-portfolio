@@ -1,0 +1,16 @@
+#contact {
+  color: var(--primary--color);
+}
+
+.contact__heading {
+    text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary--color);
+}
+ .contact__link {
+    color: var(--primary--color);
+
+ }
+  .contact__link:hover {
+    color: var(--secondary--color);
+  }
