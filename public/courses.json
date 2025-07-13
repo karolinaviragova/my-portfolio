@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "Digital Academy Web",
+    "company": "Czechitas",
+    "length": "03/2025 - 06/2025",
+    "description": "An intensive, 4-month course (300+ hours) focused on the fundamentals of web development. Covered technologies included HTML, CSS, JavaScript, Git, working with APIs, and basic React. The program also involved collaborative team development of a web application, UI design in Figma, version control with Git, and an introduction to agile development practices."
+  },
+  {
+    "id": 1,
+    "name": "JavaScript 1 - Basics",
+    "company": "Czechitas",
+    "length": "09/2024 - 12/2024",
+    "description": "I learned to program in JavaScript and manipulate the DOM for dynamic web page updates. The course covered functions, variable scopes, event handling, passing data via URL parameters, working with arrays and objects, and using Git for version control."
+  },
+  {
+    "id": 2,
+    "name": "Introduction to HTML and CSS",
+    "company": "Czechitas",
+    "length": "08/2024",
+    "description": "The course covered the basics of HTML and CSS, including page structure and essential tags like headings, paragraphs, links, and images. It introduced CSS fundamentals such as text and background colors, font sizes and the box model."
+  },
+  {
+    "id": 3,
+    "name": "Introduction to JavaScript",
+    "company": "Czechitas",
+    "length": "07/2024",
+    "description": "The course involved the basics of JavaScript and covered fundamental concepts like variables, loops, and conditions through hands-on exercises."
+  }
+]

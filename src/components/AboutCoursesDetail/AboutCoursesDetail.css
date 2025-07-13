@@ -1,0 +1,20 @@
+.courses__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.courses__company-description, h4, h3 {
+  margin: 0;
+}
+
+.courses__company,
+.courses__name {
+  color: var(--tertiary--color);
+}
+
+.courses__company {
+  padding-bottom: 0.63rem;
+  border-bottom: 2px solid var(--secondary--color);
+}
