@@ -37,8 +37,8 @@ export const HomePage = () => {
           <ProjectCard
             key={project.id}
             name={project.name}
-            link={project.link}
-            description={project.description}
+            websiteUrl={project.websiteUrl}
+            shortDescription={project.shortDescription}
             onFlip={handleFlip}
             flippedCard={flippedCard}
             id={project.id}

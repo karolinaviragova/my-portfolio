@@ -2,8 +2,8 @@ import './ProjectCard.css';
 
 export const ProjectCard = ({
   name,
-  link,
-  description,
+  websiteUrl,
+  shortDescription,
   onFlip,
   flippedCard,
   id,
@@ -17,12 +17,12 @@ export const ProjectCard = ({
     >
       {id === flippedCard ? (
         <div className="projectCard__card projectCard__card--back">
-          <p className="projectCard__description">{description}</p>
+          <p className="projectCard__description">{shortDescription}</p>
         </div>
       ) : (
         <div className="projectCard__card">
           <p className="projectCard__heading">{name}</p>
-          <a href={link} className="projectCard__link" target="_blank">
+          <a href={websiteUrl} className="projectCard__link" target="_blank">
             View project
           </a>
         </div>
