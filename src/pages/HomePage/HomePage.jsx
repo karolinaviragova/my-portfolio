@@ -1,11 +1,14 @@
 import './HomePage.css';
 import { HomePageIntro } from '../../components/HomePageIntro/HomePageIntro';
 import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { useProjectVariant } from '../../hooks/useProjectVariant';
 
 export const HomePage = () => {
-  const [projects, setProjects] = useState([]);
   const [flippedCard, setFlippedCard] = useState(null);
+
+  // Call useProjectVariant hook, which returns an array of projects, and save it to a variable.
+  const projects = useProjectVariant();
 
   const handleFlip = (handleId) => {
     projects.find((project) => project.id === handleId);
@@ -19,15 +22,6 @@ export const HomePage = () => {
       setFlippedCard(handleId);
     }
   };
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch('/projects.json');
-      const result = await response.json();
-      setProjects(result);
-    };
-    fetchData();
-  }, []);
 
   return (
     <>
