@@ -2,3 +2,8 @@
   color: var(--primary--color);
 }
 
+.projects__heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary--color);
+}

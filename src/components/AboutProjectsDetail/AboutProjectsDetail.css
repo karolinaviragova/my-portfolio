@@ -1,12 +1,22 @@
+.projects__heading, .projects__name {
+  text-align: center;
+
+}
 
 .projects__heading {
-    text-align: center;
   text-transform: uppercase;
   color: var(--secondary--color);
 }
 
 .projects__name {
   color: var(--tertiary--color);
+  font-size: 1.44rem;
+}
+
+.projects__links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.63rem;
 }
 
 .projects__link {
@@ -18,3 +28,4 @@
       color: var(--secondary--color);
 
 }
+

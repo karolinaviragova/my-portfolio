@@ -14,3 +14,7 @@
   .contact__link:hover {
     color: var(--secondary--color);
   }
+
+  .contant__container {
+    text-align: center;
+  }
