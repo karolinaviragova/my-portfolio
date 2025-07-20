@@ -7,3 +7,16 @@
   text-transform: uppercase;
   color: var(--secondary--color);
 }
+
+/* Pro tablety (min šířka 768px) */
+@media (min-width: 768px) {
+  .courses__heading {
+    font-size: 1.88rem;
+  }
+
+}
+
+/* Pro desktop (min šířka 1024px) */
+@media (min-width: 1024px) {
+  
+}

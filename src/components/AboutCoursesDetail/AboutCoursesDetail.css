@@ -5,7 +5,9 @@
   padding-bottom: 0.63rom;
 }
 
-.courses__company-description, h4, h3 {
+.courses__company-description,
+h4,
+h3 {
   margin: 0;
 }
 
@@ -17,4 +19,33 @@
 .courses__company {
   padding-bottom: 0.63rem;
   border-bottom: 2px solid var(--secondary--color);
+}
+
+/* Pro tablety (min šířka 768px) */
+@media (min-width: 768px) {
+
+  .courses__name,
+  .courses__company,
+  .courses__length {
+    font-size: 1.20rem;
+  }
+
+  .courses__container {
+    padding: 0 1.25rem 0 1.25rem;
+  }
+}
+
+/* Pro desktop (min šířka 1024px) */
+@media (min-width: 1024px) {
+  .courses__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courses__desc {
+    font-size: 1.15rem;
+  }
+  .courses__info, .courses__company-description {
+    width: 80%;
+  }
 }

@@ -3,6 +3,7 @@ import { HomePageIntro } from '../../components/HomePageIntro/HomePageIntro';
 import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
 import { useState } from 'react';
 import { useProjectVariant } from '../../hooks/useProjectVariant';
+import { AboutContact } from '../../components/AboutContact/AboutContact';
 
 export const HomePage = () => {
   const [flippedCard, setFlippedCard] = useState(null);
@@ -39,6 +40,7 @@ export const HomePage = () => {
           />
         ))}
       </div>
+      <AboutContact />
     </>
   );
 };

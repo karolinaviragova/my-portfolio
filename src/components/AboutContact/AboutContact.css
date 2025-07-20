@@ -3,18 +3,34 @@
 }
 
 .contact__heading {
-    text-align: center;
+  text-align: center;
   text-transform: uppercase;
   color: var(--secondary--color);
 }
- .contact__link {
-    color: var(--primary--color);
 
- }
-  .contact__link:hover {
-    color: var(--secondary--color);
+.contact__link {
+  color: var(--primary--color);
+
+}
+
+.contact__link:hover {
+  color: var(--secondary--color);
+}
+
+.contant__container {
+  text-align: center;
+}
+
+/* Pro tablety (min šířka 768px) */
+@media (min-width: 768px) {
+  .contact__heading {
+    font-size: 1.88rem;
   }
 
-  .contant__container {
-    text-align: center;
+  .contant__desc {
+    font-size: 1.25rem;
   }
+}
+
+/* Pro desktop (min šířka 1024px) */
+@media (min-width: 1024px) {}

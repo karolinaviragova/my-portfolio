@@ -1,4 +1,3 @@
-import { AboutContact } from '../../components/AboutContact/AboutContact';
 import { AboutCourses } from '../../components/AboutCourses/AboutCourses';
 import { AboutIntro } from '../../components/AboutIntro/AboutIntro';
 import { AboutProjects } from '../../components/AboutProjects/AboutProjects';
@@ -11,7 +10,6 @@ export const AboutPage = () => {
       <AboutSkills />
       <AboutCourses />
       <AboutProjects />
-      <AboutContact />
     </>
   );
 };

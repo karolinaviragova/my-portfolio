@@ -3,7 +3,9 @@ import './AboutProjectsDetail.css';
 export const AboutProjectsDetail = ({ name, description, webUrl, repUrl }) => {
   return (
     <div className="projects__container">
-      <h3 className="projects__name">{name}</h3>
+      <div className="projects__name">
+        <h3>{name}</h3>
+      </div>
       <div className="projects__links">
         <h4>
           <a
