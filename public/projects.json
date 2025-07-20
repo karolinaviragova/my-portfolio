@@ -3,7 +3,7 @@
     "id": 0,
     "name": "Portfolio",
     "shortDescription": "A little corner of the web where I share my projects and coding journey.",
-    "longDescription": "My portfolio was born from the desire to code independently after finishing the Digital Academy. I wanted to showcase my skills and create my own space, on my own terms and timeline. I really enjoyed the process, and if you’re reading this, it means you’ve already taken a look! I’m always open to suggestions on how to improve or add cool new features.",
+    "longDescription": "My portfolio was born from the desire to code independently after finishing the Digital Academy. I wanted to showcase my skills and create my own space. I really enjoyed the process, and if you’re reading this, it means you’ve already taken a look, which makes me really happy! I’m always open to suggestions on how to improve or add cool new features.",
     "websiteUrl": "https://karolinaviragova.netlify.app",
     "repositoryUrl": "https://github.com/karolinaviragova/my-portfolio"
   },
@@ -11,7 +11,7 @@
     "id": 1,
     "name": "PawHelp",
     "shortDescription": "A web application designed to help users find veterinary care in Prague.",
-    "longDescription": "PawHelp is a web application designed to help users find veterinary care in Prague. You can choose from veterinary emergency services, regular clinics, or even a vet who comes to your home. The app also shows your location and the distance to each option. I created this project as part of my final assignment during the Digital Academy Web, working together with my partner and mentors. It was a fun but challenging weekend of coding! We used cool tools like React Query, Apify scraper for data handling, Tailwind CSS for styling, and pre-made components from ShadCN UI.",
+    "longDescription": "PawHelp is a web application designed to help users find veterinary care in Prague. You can choose from veterinary emergency services, regular clinics, or even a vet who comes to your home. The app also shows your location and the distance to the option you chosen. I created this project as part of my final assignment during the Digital Academy Web, working together with my coding partner and mentors. It was a fun but challenging weekend of coding! We used cool tools like React Query, Apify scraper for data handling, Tailwind CSS for styling, and pre-made components from ShadCN UI.",
     "websiteUrl": "https://paw-help.netlify.app",
     "repositoryUrl": "https://github.com/karolinaviragova/paw-help"
   },

@@ -6,6 +6,7 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--secondary--color);
+  font-size: 2rem;
 }
 
 .contact__link {
@@ -21,6 +22,9 @@
   text-align: center;
 }
 
+.contant__desc {
+  font-size: 1.19rem;
+}
 /* Pro tablety (min šířka 768px) */
 @media (min-width: 768px) {
   .contact__heading {

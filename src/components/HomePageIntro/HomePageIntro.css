@@ -21,6 +21,10 @@
   font-size: 1.5rem;
 }
 
+.homepage__intro-text {
+  margin-top: 0.63rem;
+}
+
 .homepage__intro-text,
 .homepage__link {
   color: var(--primary--color);
