@@ -41,9 +41,18 @@ export const AboutIntro = () => {
           </p>
           <p>
             Last year, I decided to give programming another shot and enrolled
-            in courses with Czechitas. I started with JavaScript Basics 1, which
-            then opened the door to the Czechitas Web Academy — and I’m proud to
-            say I successfully completed it!
+            in courses with{' '}
+            <a
+              href="https://www.czechitas.cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="about__link"
+            >
+              Czechitas
+            </a>
+            . I started with JavaScript Basics 1, which then opened the door to
+            the <strong>Czechitas Web Academy</strong> — and I’m proud to say I successfully
+            completed it!
           </p>
           <p>
             Along the way, I built up my skills in{' '}
